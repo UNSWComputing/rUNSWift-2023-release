@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="runswift" targetName="robot-static" />
+      <config projectName="runswift" targetName="vatnao-legacy.bin" />
+      <config projectName="runswift" targetName="soccer" />
+      <config projectName="runswift" targetName="state-estimation-simulator.bin" />
+      <config projectName="runswift" targetName="vatnao.bin" />
+      <config projectName="runswift" targetName="soccer-static" />
+      <config projectName="runswift" targetName="offnao.bin" />
+      <config projectName="runswift" targetName="runswift" />
+      <config projectName="runswift" targetName="agent" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="RelWithDebInfo-2.1" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="2.1" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=../toolchain-2.1.cmake -DBoost_NO_BOOST_CMAKE=1 -DCMAKE_MAKE_PROGRAM=make" GENERATION_DIR="build-relwithdebinfo-2.1.4.13" BUILD_OPTIONS="-j4" />
+      <configuration PROFILE_NAME="RelWithDebInfo-2.8" CONFIG_NAME="RelWithDebInfo" TOOLCHAIN_NAME="2.8" GENERATION_OPTIONS="-DCMAKE_TOOLCHAIN_FILE=../toolchain-2.8.cmake -DBoost_NO_BOOST_CMAKE=1 -DCMAKE_MAKE_PROGRAM=make" GENERATION_DIR="build-relwithdebinfo-2.8.1.33" BUILD_OPTIONS="-j4" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/build-release-2.1.4.13/" />
+    <ignored path="$PROJECT_DIR$/build-relwithdebinfo-2.8.1.33/" />
+    <ignored path="$PROJECT_DIR$/build-relwithdebinfo-2.1.4.13/" />
+    <ignored path="$PROJECT_DIR$/build-minsizerel-2.1/" />
+    <ignored path="$PROJECT_DIR$/build-minsizerel-2.8/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-relwithdebinfo/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-minsizerel/" />
+    <ignored path="$PROJECT_DIR$/build-debug-2.1/" />
+    <ignored path="$PROJECT_DIR$/build-debug-2.8/" />
+    <ignored path="$PROJECT_DIR$/build-release-2.1/" />
+    <ignored path="$PROJECT_DIR$/build-release-2.8/" />
+    <ignored path="$PROJECT_DIR$/build-relwithdebinfo-2.1/" />
+    <ignored path="$PROJECT_DIR$/build-relwithdebinfo-2.8/" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
+    <ignored path="$PROJECT_DIR$/build-release-2.1.4.13/" />
+    <ignored path="$PROJECT_DIR$/build-release-2.8.1.33/" />
+    <ignored path="$PROJECT_DIR$/build-relwithdebinfo-2.1.4.13/" />
+    <ignored path="$PROJECT_DIR$/build-relwithdebinfo-2.8.1.33/" />
+    <ignored path="$PROJECT_DIR$/build-release-2.8.1.33/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Build All">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="MinSizeRel-2.1" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="agent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="agent" CONFIG_NAME="MinSizeRel-2.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="offnao.bin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="offnao.bin" CONFIG_NAME="MinSizeRel-2.1" RUN_TARGET_PROJECT_NAME="runswift" RUN_TARGET_NAME="offnao.bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="robot-static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="robot-static" CONFIG_NAME="MinSizeRel-2.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runswift" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="runswift" CONFIG_NAME="MinSizeRel-2.1" RUN_TARGET_PROJECT_NAME="runswift" RUN_TARGET_NAME="runswift">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="soccer-static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="soccer-static" CONFIG_NAME="MinSizeRel-2.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="soccer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="soccer" CONFIG_NAME="MinSizeRel-2.1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="state-estimation-simulator.bin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="state-estimation-simulator.bin" CONFIG_NAME="MinSizeRel-2.1" RUN_TARGET_PROJECT_NAME="runswift" RUN_TARGET_NAME="state-estimation-simulator.bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vatnao-legacy.bin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="vatnao-legacy.bin" CONFIG_NAME="MinSizeRel-2.1" RUN_TARGET_PROJECT_NAME="runswift" RUN_TARGET_NAME="vatnao-legacy.bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vatnao.bin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="runswift" TARGET_NAME="vatnao.bin" CONFIG_NAME="MinSizeRel-2.1" RUN_TARGET_PROJECT_NAME="runswift" RUN_TARGET_NAME="vatnao.bin">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.agent" />
+      <item itemvalue="Application.robot-static" />
+      <item itemvalue="Application.runswift" />
+      <item itemvalue="Application.soccer" />
+      <item itemvalue="Application.soccer-static" />
+      <item itemvalue="Application.offnao.bin" />
+      <item itemvalue="Application.state-estimation-simulator.bin" />
+      <item itemvalue="Application.vatnao-legacy.bin" />
+      <item itemvalue="Application.vatnao.bin" />
+    </list>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

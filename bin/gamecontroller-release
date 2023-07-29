@@ -1,0 +1,4 @@
+#!/bin/sh
+setup-gamecontroller-release.sh
+cd ${RUNSWIFT_CHECKOUT_DIR}/softwares/GameControllerRelease/
+java -jar GameController.jar

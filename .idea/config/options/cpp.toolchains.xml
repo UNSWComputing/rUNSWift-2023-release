@@ -1,0 +1,8 @@
+<application>
+  <component name="CPPToolchains" version="4">
+    <toolchains detectedVersion="5">
+      <toolchain name="2.1" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/usr/bin/cmake" customCCompilerPath="$USER_HOME$/runswift/ctc/ctc-linux64-atom-2.1.4.13/cross/bin/i686-aldebaran-linux-gnu-gcc" customCXXCompilerPath="$USER_HOME$/runswift/ctc/ctc-linux64-atom-2.1.4.13/cross/bin/i686-aldebaran-linux-gnu-g++" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="2.8" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/usr/bin/cmake" customCCompilerPath="$USER_HOME$/runswift/ctc/ctc-linux64-atom-2.8.1.33/yocto-sdk/sysroots/x86_64-naoqisdk-linux/usr/bin/i686-sbr-linux/i686-sbr-linux-gcc" customCXXCompilerPath="$USER_HOME$/runswift/ctc/ctc-linux64-atom-2.8.1.33/yocto-sdk/sysroots/x86_64-naoqisdk-linux/usr/bin/i686-sbr-linux/i686-sbr-linux-g++" debuggerKind="BUNDLED_GDB" />
+    </toolchains>
+  </component>
+</application>
