@@ -1,9 +1,9 @@
-# pyalsaaudio is manually built for the robot in the wtb_pip directory,
-# but also can be installed on Linux
-pyalsaaudio==0.7
+# The following are what rUNSWift is as of 2024-04-06 using on main.
+# It is left as an exercise to the astute consumer of the 2023 release, as to how to upgrade the Softbank image
+# accordingly, or alternately switch the operating system to something else.
+numpy==1.26.4
+pyalsaaudio==0.10.0
 
+# termcolor also could be moved to a requirements_dev.txt file
 # Linux and OSX (not on robot) requirement to make tests easier to read
 termcolor==1.1.0
-
-# Match versions on the robot as of 9 May 2015, 1.14 toolchain
-numpy==1.6.0
