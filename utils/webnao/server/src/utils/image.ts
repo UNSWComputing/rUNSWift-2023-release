@@ -1,4 +1,11 @@
-import Jimp from 'jimp';
+// I think 'jimp' here is dead code.
+// This is because utils/webnao/server/src/servers/teamServer.ts has a
+// `getCommandHandler` fn which does not implement '/dumps', but does implement '/stream'.
+// But if I'm wrong, and this code is used/useful, please replace jimp with sharp:
+// https://github.com/Experience-Monks/load-bmfont/issues/11
+// import Jimp from 'jimp';
+// End apology (for now, I know it breaks the next rule, but I'm not sure how much of this file can be cleaned up)
+// https://github.com/pzrq/clean-code-javascript?tab=readme-ov-file#only-comment-things-that-have-business-logic-complexity
 import { Blackboard } from '@common/blackboard';
 import { RobotCameras } from '@common/blackboard/utils';
 
@@ -190,12 +197,12 @@ export async function saveTopFrame(bb: Blackboard, path: string, region?: IRecta
     const height = RobotCameras.top.height;
     const imageBytes = bb.vision?.topFrame;
     const rgbBytes = yvyu2rgbBuffer(imageBytes);
-    const jimg = new Jimp({data: rgbBytes, width, height});
-    if (region) {
-      console.log('Cropping top', region);
-      jimg.crop(region.left, region.top, region.width, region.height);
-    }
-    await jimg.writeAsync(path);
+    // const jimg = new Jimp({data: rgbBytes, width, height});
+    // if (region) {
+    //   console.log('Cropping top', region);
+    //   jimg.crop(region.left, region.top, region.width, region.height);
+    // }
+    // await jimg.writeAsync(path);
   }
 }
 
@@ -205,12 +212,12 @@ export async function saveBottomFrame(bb: Blackboard, path: string, region?: IRe
     const height = RobotCameras.bottom.height;
     const imageBytes = bb.vision?.botFrame;
     const rgbBytes = yvyu2rgbBuffer(imageBytes);
-    const jimg = new Jimp({ data: rgbBytes, width, height });
-    if (region) {
-      console.log('Cropping bottom', region);
-      jimg.crop(region.left, region.top, region.width, region.height);
-    }
-    await jimg.writeAsync(path);
+    // const jimg = new Jimp({ data: rgbBytes, width, height });
+    // if (region) {
+    //   console.log('Cropping bottom', region);
+    //   jimg.crop(region.left, region.top, region.width, region.height);
+    // }
+    // await jimg.writeAsync(path);
   }
 }
 

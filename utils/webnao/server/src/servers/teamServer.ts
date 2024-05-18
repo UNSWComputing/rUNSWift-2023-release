@@ -68,7 +68,14 @@ export class TeamServer {
     return async (data: RawData, isBinary: boolean) => {
       const robotState = await this.getRobotsInfo();
       const {requestPath, requestParams, nonce }: TeamDataRequest = JSON.parse(data.toString());
-      console.log(`${requestPath}?${requestParams}`);
+
+      // I'm not sure if this console.log is needed, but if it is intended, perhaps it needs something like
+      // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI
+      // This version at least prints something more useful than '...[object Object]' e.g.
+      // /dumps? TODO: {}
+      // /stream? TODO: {"robotName":"shelly","type":"ethernet","mask":7}
+      console.log(`${requestPath}? TODO: ${JSON.stringify(requestParams)}`);
+
       try {
         switch (requestPath) {
           case '/robots':
